@@ -113,7 +113,7 @@ public class JavaSesion2 {
        
        //Switch Case
        
-       int diaSemana=5;
+       /*int diaSemana=5;
        switch (diaSemana){
            case 1:
                 System.out.println("Es Lunes");
@@ -146,7 +146,74 @@ public class JavaSesion2 {
                 default: 
                     System.out.println("No ingreso un dia valido");
        }
+       //Ciclos infinitos While
        
+       int contadorWhile=0;
+       //Se ejecutara siempre y cuando la condicion sea verdadera
+       
+        while (contadorWhile<10) { 
+            System.out.println(contadorWhile);
+            //contadorWhile++;
+            
+            contadorWhile=contadorWhile+1;  
+        }
+       
+       */
+       //Do While
+       //Aqui siempre se ejecuta una vez la instruccion como minimo
+       
+      /* int contadorDoWhile=0;
+        do {            
+            System.out.println(contadorDoWhile);
+            contadorDoWhile++;
+        } while (contadorDoWhile<5);*/
+        
+        //cICLOS FINITOS FOR
+        /*int i;
+        for (i = 0; i < 5; i++) {
+            System.out.println(i);
+        }
+        //FOR EACH nos sirve para recorrer arreglos, vectores, matrices
+        
+        String [] AlumnosForEch = {"Frank","Liliana", "Claudio", "Vinicio"};
+        //Mostrar todos los registros
+       for(String iForeach:AlumnosForEch){
+           System.out.println(iForeach);
+       }
+        */
+        //Matrices unidimensionales
+        
+       /* String [] matrizAutos={"Tyota","BMW","Ford"};
+        
+        int[] matrizNumero={10,11,12,13,14,15};
+        //Mostrando valores de la matriz por posicion
+        
+        System.out.println(matrizAutos[1]);
+    System.out.println("=====================");*/
+       
+       //Matrices multidimensionales
+       /*int[][] matrizMultidimensional = {{1,2,3,4},{5,6,7,8}};
+       
+       int misElementos = matrizMultidimensional[0][1];
+        System.out.println("misElementos");
+        
+        //Mostrando Todos los datos de mi matriz multidimensioanl
+        for (int i2 = 0; i2 < matrizMultidimensional.length; i2++) {
+            
+           System.out.println("\n");
+           
+          for (int j2= 0; j2< matrizMultidimensional[i2].length; j2++) {  
+              System.out.println(matrizMultidimensional[i2][j2]);
+          }*/
+         //Metodos  
+         
+         
+        
+        
+            
+        
+        
+
     }
     
 }
